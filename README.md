@@ -54,6 +54,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+orders = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-orders@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-orders/tags). For example,
+
+```javascript
 orders = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-orders@v0.1.0-umd/browser.js' )
 ```
 
@@ -66,7 +71,7 @@ var orders = require( 'path/to/vendor/umd/ndarray-orders/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-orders@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-orders@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -118,7 +123,7 @@ The output `array` contains the following orders:
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-index-of@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-orders@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-orders@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
