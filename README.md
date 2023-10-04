@@ -52,13 +52,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import orders from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-orders@deno/mod.js';
+import orders from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-orders@v0.1.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { enum } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-orders@deno/mod.js';
+import { enum } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-orders@v0.1.1-deno/mod.js';
 ```
 
 #### orders()
@@ -97,7 +97,7 @@ The output `array` contains the following orders:
 
 ```javascript
 import indexOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-index-of@deno/mod.js';
-import orders from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-orders@deno/mod.js';
+import orders from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-orders@v0.1.1-deno/mod.js';
 
 var ORDERS = orders();
 var bool;
