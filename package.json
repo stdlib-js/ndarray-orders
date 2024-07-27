@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-orders",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "List of ndarray orders.",
   "license": "Apache-2.0",
   "author": {
@@ -39,14 +39,14 @@
   },
   "dependencies": {
     "@stdlib/blas-base-layouts": "^0.0.1",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.1",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2",
     "@stdlib/utils-library-manifest": "^0.2.1"
   },
   "devDependencies": {
     "@stdlib/array-base-assert-contains": "^0.2.1",
-    "@stdlib/assert-has-own-property": "^0.2.1",
+    "@stdlib/assert-has-own-property": "^0.2.2",
     "@stdlib/assert-is-nonnegative-integer": "^0.2.1",
-    "@stdlib/assert-is-string-array": "^0.2.1",
+    "@stdlib/assert-is-string-array": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
