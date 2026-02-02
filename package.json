@@ -40,7 +40,8 @@
   "dependencies": {
     "@stdlib/blas-base-layouts": "^0.0.2",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.3",
-    "@stdlib/utils-library-manifest": "^0.2.3"
+    "@stdlib/utils-library-manifest": "^0.2.3",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/array-base-assert-contains": "^0.2.2",
