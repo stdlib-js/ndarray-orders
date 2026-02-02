@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "@stdlib/blas-base-layouts": "^0.0.2",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.3",
     "@stdlib/utils-library-manifest": "^0.2.3"
   },
   "devDependencies": {
